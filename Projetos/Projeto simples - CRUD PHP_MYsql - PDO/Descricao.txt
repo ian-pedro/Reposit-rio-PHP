@@ -1,0 +1,25 @@
+
+OBS: O código trabalha uma conexão à um BD usando PHP.
+Neste código, a ideia é ter um sistema básico para ge-
+renciar obras, como data de início, gasto, apagar-cadastrar-alterar.
+
+Autor: Ian Pedro
+
+1º index.php -> header - Exibir dados de obra (nome) -> obra.php
+2º connect.php -> conexão (using PDO) ao BD (construcao)
+
+	Componentes adicionais:
+		Orientação do código.txt -> Ordem
+		construcao.sql -> Banco
+----------------------------------------------------------------
+Folder-Obra:
+	obra.php - Exibe os dados
+		cadastrar_nova_obra.php
+			inserir_obra.php
+
+		seleciona_para_alterar_obra.php
+		alterar_dados_obra.php
+			executa_alteracao.php
+
+		seleciona_para_apagar_obra.php
+			executa_apagar.php 
