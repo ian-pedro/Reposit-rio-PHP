@@ -26,7 +26,7 @@
 
 
 // Primeiramente, o programa deve receber as três idades como mostrado:
-    $f1 = 21;  //Filho 1
+    $f1 = 10;  //Filho 1
     $f2 = 7; //Filho 2
     $m = 47;  //Mãe
 
