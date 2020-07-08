@@ -12,26 +12,27 @@
 */
 
 //Tamanho da sequência:
-$ts = 12;
+$ts = 4;
 //Sequência:
-$Vi = array(1,2,1,2,2,2,1,1,2,2,1,1);
+$Vi = array(1,2,1,2);
 
 if($ts>=3 && $ts<=500){
 
     if(count($Vi) == $ts){
 
         $arm = 0;
-        $i = 0;
-        for($i; $i<count($Vi); $i++){
-            echo $Vi[$i];
+        
+        //$cont = 0;
+        for($i=1; $i<count($Vi); $i++){
             
-            if( $Vi[$i] != $Vi[]=$i+1 ){
-                $arm = $Vi[$i];
-                //echo $arm;
+            if( ($Vi[]=$i-1) != ($Vi[]=$i+1) ){
+                $arm = $Vi[$i];  
             }
-
+            //$cont++;
         }
-    //echo $arm;  
+
+    echo $arm;
+
     }else{
         echo "A sequência ultrapassa o tamanho";
     }
