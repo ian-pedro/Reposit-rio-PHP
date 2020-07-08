@@ -22,16 +22,16 @@ if($ts>=3 && $ts<=500){
 
         $arm = 0;
         $i = 0;
-        for($i; $i<$ts; $i++){
-            //echo $Vi[$i];
+        for($i; $i<count($Vi); $i++){
+            echo $Vi[$i];
             
             if( $Vi[$i] != $Vi[]=$i+1 ){
-                $arm ++;
+                $arm = $Vi[$i];
                 //echo $arm;
             }
 
         }
-    echo $arm;  
+    //echo $arm;  
     }else{
         echo "A sequência ultrapassa o tamanho";
     }
