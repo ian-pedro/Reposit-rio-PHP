@@ -12,23 +12,22 @@
 */
 
 //Tamanho da sequência:
-$ts = 4;
+$ts = 12;
 //Sequência:
-$Vi = array(1,2,1,2);
+$Vi = array(1,2,1,2,2,2,1,1,2,2,1,1);
 
 if($ts>=3 && $ts<=500){
 
     if(count($Vi) == $ts){
 
         $arm = 0;
-        
-        //$cont = 0;
-        for($i=1; $i<count($Vi); $i++){
+        $pos = 0;
+        for($i=1; $i<=count($Vi); $i++){
             
-            if( ($Vi[]=$i-1) != ($Vi[]=$i+1) ){
-                $arm = $Vi[$i];  
+            if( $Vi[$pos] != $Vi[$i] ){
+                $arm++;  
             }
-            //$cont++;
+            $pos++;
         }
 
     echo $arm;
