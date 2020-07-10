@@ -2,7 +2,7 @@
 
 // Questões -> OBI - https://olimpiada.ic.unicamp.br/
 
-// Questão: Dominó -> Modalidade Programação _ Fase 1
+// Questão: Dominó -> Modalidade Programação _ Fase 1 _ Nível Júnior
 
 /*
 
