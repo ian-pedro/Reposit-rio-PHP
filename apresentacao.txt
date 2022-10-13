@@ -1,5 +1,0 @@
-   Olá, inicío meu caminho no Git e GitHub com o objetivo de postar
-alguns   projetos em php. Sou  aspirante à    programador    ainda,   
-tenho   conhecimentos    básicos e   espero que daqui à algun tempo 
-consiga aumentá-los.
-   
