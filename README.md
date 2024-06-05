@@ -1,2 +1,2 @@
-# Reposit-rio-PHP
+# Repositrio-PHP
 Aba PHP -> Projetos
