@@ -1,4 +1,7 @@
 Aba -> Projetos
 
 - Testando funcionamento do repositório
+- Feito push
 - Fazer pull
+  Feito
+- Fazer fetch
