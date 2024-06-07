@@ -1,3 +1,4 @@
 Aba -> Projetos
 
 - Testando funcionamento do repositório
+- Fazer pull
